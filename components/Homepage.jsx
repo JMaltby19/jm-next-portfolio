@@ -12,7 +12,7 @@ export const Homepage = () => {
 					</h1>
 					<h1>Welcome to my page</h1>
 				</div>
-				<div className="text-slate-400 text-xl max-w-xl mx-auto h-80">
+				<div className="text-slate-400 text-xl max-w-xl mx-auto h-96 mb-20 md:mb-0">
 					I am a junior developer with experience in React, JavaScript, NodeJS,
 					CSS & HTML. Over the past year I have been creating projects which
 					showcase my abilities and knowledge. I am looking forward to start my
