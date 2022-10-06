@@ -13,7 +13,7 @@ export const Projects = () => {
 			dev: "Full-stack",
 			imgSrc: netflixClone,
 			url: "https://flix-project.co.uk",
-			desc: "This is my version of Netflix. Users can sign up and create an account using node and express. These accounts are stored in a SQL database. Once logged in, you can browse movies and series, saving your favourites to your watchlist. You can also modify your user credentials. I experienced a few issues whilst creating the site; the users needed to save their favourite movies, but only one copy, which was solved by using the some method and checking if the id's matched. ",
+			desc: "This is my version of Netflix. Users can sign up and create an account using node and express. These accounts are stored in a SQL database. Once logged in, you can browse movies and series, saving your favourites to your watchlist. You can also modify your user credentials.",
 			stack:
 				"React | Hooks | JavaScript | NodeJS | Express | MySQL | RESTful | SASS",
 			gitRepo: "https://github.com/Jmaltby19/netflix-clone",
