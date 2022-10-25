@@ -10,9 +10,9 @@ export const Projects = () => {
 	const projects = [
 		{
 			id: 1,
-			title: "Netflix Clone",
+			title: "Dev-Link",
 			dev: "Full-stack",
-			imgSrc: netflixClone,
+			imgSrc: devLink,
 			url: "https://dev-link-ybel.onrender.com",
 			desc: "Dev-Link is a site where developers can create a profile with their specific tech skills and Github Repo's. My first application using TypeScript, there has beena fair amount to learn and I am only scratching the surface. Also uses Redux, MongoDb and TailwindCSS for styling.",
 			stack:
