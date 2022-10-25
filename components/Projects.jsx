@@ -3,12 +3,24 @@ import netflixClone from "../public/assets/netflixClone.png";
 import weatherApp from "../public/assets/weatherApp.png";
 import speedGame from "../public/assets/other/speed-type.png";
 import Image from "next/image";
+import devLink from "../public/assets/other/dev-link.png";
 import { FaGithub } from "react-icons/fa";
 
 export const Projects = () => {
 	const projects = [
 		{
 			id: 1,
+			title: "Netflix Clone",
+			dev: "Full-stack",
+			imgSrc: netflixClone,
+			url: "https://dev-link-ybel.onrender.com",
+			desc: "Dev-Link is a site where developers can create a profile with their specific tech skills and Github Repo's. My first application using TypeScript, there has beena fair amount to learn and I am only scratching the surface. Also uses Redux, MongoDb and TailwindCSS for styling.",
+			stack:
+				"TypeScript | React | Hooks | Redux | JavaScript | NodeJS | Express | MongoDB | TailwindCSS",
+			gitRepo: "https://github.com/JMaltby19/Dev-Link",
+		},
+		{
+			id: 2,
 			title: "Netflix Clone",
 			dev: "Full-stack",
 			imgSrc: netflixClone,
@@ -19,7 +31,7 @@ export const Projects = () => {
 			gitRepo: "https://github.com/Jmaltby19/netflix-clone",
 		},
 		{
-			id: 2,
+			id: 3,
 			title: "Weather App",
 			dev: "Front-end (React)",
 			imgSrc: weatherApp,
@@ -30,7 +42,7 @@ export const Projects = () => {
 		},
 
 		{
-			id: 3,
+			id: 4,
 			title: "Speed Typing Game",
 			dev: "Front-end (React)",
 			imgSrc: speedGame,
