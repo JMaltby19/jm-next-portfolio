@@ -38,7 +38,7 @@ export const Navbar = () => {
 							</Link>
 						))}
 						<div>
-							<a href="/John_Maltby_CV-2.pdf" target="_blank">
+							<a href="/John_Maltby_CV.pdf" target="_blank">
 								<button className="hidden group md:flex items-center justify-center text-center ml-10 rounded-md text-teal-300 border-2 border-teal-300  w-14 duration-200 ease-out hover:scale-125">
 									CV
 								</button>
@@ -101,7 +101,7 @@ export const Navbar = () => {
 								</Link>
 							))}
 							<div>
-								<a href="/John_Maltby CV-1.pdf" target="_blank">
+								<a href="/John_Maltby_CV.pdf" target="_blank">
 									<button className="flex items-center justify-center text-center ml-6 rounded-md text-[#0a192f] border-2 border-[#0a192f]  w-14 duration-200 ease-out hover:scale-125">
 										CV
 									</button>
