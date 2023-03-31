@@ -6,20 +6,21 @@ import Image from "next/image";
 // import devLink from "../public/assets/other/dev-link.png";
 import netflixGif from "../public/assets/ezgif.com-gif-maker(1).gif";
 import devLinkGif from "../public/assets/ezgif.com-gif-maker(2).gif";
+import ticketSystem from "../public/assets/ticket-system-screenshot.png";
 import { FaGithub } from "react-icons/fa";
 
 export const Projects = () => {
 	const projects = [
 		{
 			id: 1,
-			title: "Dev-Link",
+			title: "Ticket-System",
 			dev: "Full-stack",
-			imgSrc: devLinkGif,
-			url: "https://dev-link-ybel.onrender.com",
-			desc: "Dev-Link is a site where developers can create a profile with their specific tech skills and Github Repo's. My first application using TypeScript, there has beena fair amount to learn and I am only scratching the surface. Also uses Redux, MongoDb and TailwindCSS for styling.",
+			imgSrc: ticketSystem,
+			url: "https://ticket-system-dk9iofuej-jaym1926.vercel.app/login",
+			desc: "This is a generic ticket system. Users can create a profile, create tickets and add notes to get feedback, for example with an Operator. Also using Redux Toolkit for state management, a MySQL database and TailwindCSS for styling. I also used Vite to create the frontend. ",
 			stack:
-				"TypeScript | React | Hooks | Redux | JavaScript | NodeJS | Express | MongoDB | TailwindCSS",
-			gitRepo: "https://github.com/JMaltby19/Dev-Link",
+				"React | Hooks | Redux Toolkit | JavaScript | NodeJS | Express | MySQL | TailwindCSS",
+			gitRepo: "https://github.com/JMaltby19/ticket-system",
 		},
 		{
 			id: 2,
@@ -34,6 +35,18 @@ export const Projects = () => {
 		},
 		{
 			id: 3,
+			title: "Dev-Link",
+			dev: "Full-stack",
+			imgSrc: devLinkGif,
+			url: "https://dev-link-ybel.onrender.com",
+			desc: "Dev-Link is a site where developers can create a profile with their specific tech skills and Github Repo's. My first application using TypeScript, there has been a fair amount to learn and I am only scratching the surface. Also uses Redux, MongoDb and TailwindCSS for styling.",
+			stack:
+				"TypeScript | React | Hooks | Redux | JavaScript | NodeJS | Express | MongoDB | TailwindCSS",
+			gitRepo: "https://github.com/JMaltby19/Dev-Link",
+		},
+
+		{
+			id: 4,
 			title: "Weather App",
 			dev: "Front-end (React)",
 			imgSrc: weatherApp,
@@ -44,7 +57,7 @@ export const Projects = () => {
 		},
 
 		{
-			id: 4,
+			id: 5,
 			title: "Speed Typing Game",
 			dev: "Front-end (React)",
 			imgSrc: speedGame,
