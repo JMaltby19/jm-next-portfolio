@@ -39,7 +39,7 @@ export const Navbar = () => {
 						))}
 						<div>
 							<a
-								href="/John_Maltby_Resume_31-03-2023-21-34-01.pdf"
+								href="/John_Maltby_Resume_31-03-2023-21-40-00.pdf"
 								target="_blank"
 							>
 								<button className="hidden group md:flex items-center justify-center text-center ml-10 rounded-md text-teal-300 border-2 border-teal-300  w-14 duration-200 ease-out hover:scale-125">
