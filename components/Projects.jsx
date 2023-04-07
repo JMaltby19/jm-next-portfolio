@@ -16,7 +16,7 @@ export const Projects = () => {
 			title: "Ticket-System",
 			dev: "Full-stack",
 			imgSrc: ticketSystem,
-			url: "https://ticket-system-dk9iofuej-jaym1926.vercel.app/login",
+			url: "https://ticket-system-taupe.vercel.app/login",
 			desc: "This is a generic ticket system. Users can create a profile, create tickets and add notes to get feedback, for example with an Operator. Also using Redux Toolkit for state management, a MySQL database and TailwindCSS for styling. I also used Vite to create the frontend. ",
 			stack:
 				"React | Hooks | Redux Toolkit | JavaScript | NodeJS | Express | MySQL | TailwindCSS",
