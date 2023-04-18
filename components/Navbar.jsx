@@ -104,7 +104,10 @@ export const Navbar = () => {
 								</Link>
 							))}
 							<div>
-								<a href="/John_Maltby_CV.pdf" target="_blank">
+								<a
+									href="/John_Maltby_Resume_31-03-2023-21-40-00.pdf"
+									target="_blank"
+								>
 									<button className="flex items-center justify-center text-center ml-6 rounded-md text-[#0a192f] border-2 border-[#0a192f]  w-14 duration-200 ease-out hover:scale-125">
 										CV
 									</button>
