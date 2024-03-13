@@ -2,6 +2,7 @@ import React from "react";
 // import netflixClone from "../public/assets/netflixClone.png";
 import weatherApp from "../public/assets/weatherApp.png";
 import speedGame from "../public/assets/other/speed-type.png";
+import storeImage from "../public/assets/Screenshot 2024-03-13 at 20.52.48.png";
 import Image from "next/image";
 // import devLink from "../public/assets/other/dev-link.png";
 import netflixGif from "../public/assets/ezgif.com-gif-maker(1).gif";
@@ -13,6 +14,17 @@ export const Projects = () => {
 	const projects = [
 		{
 			id: 1,
+			title: "Store App",
+			dev: "Full-stack",
+			imgSrc: storeImage,
+			url: "https://store-frontend-woad.vercel.app/",
+			desc: "This Store app is a demonstration of a storefront/product catalogue built using React and styled with Tailwind CSS. It leverages the Redux Toolkit for efficient state management. On the backend, it runs on a Node.js Express server, utilising a MySQL database for data storage. This setup showcases a full-stack development approach with modern web technologies.",
+			stack:
+				"React | Hooks | Redux Toolkit | JavaScript | NodeJS | Express | MySQL | TailwindCSS",
+			gitRepo: "https://github.com/JMaltby19/Store-Frontend",
+		},
+		{
+			id: 2,
 			title: "Ticket-System",
 			dev: "Full-stack",
 			imgSrc: ticketSystem,
@@ -23,7 +35,7 @@ export const Projects = () => {
 			gitRepo: "https://github.com/JMaltby19/ticket-system",
 		},
 		{
-			id: 2,
+			id: 3,
 			title: "Netflix Clone",
 			dev: "Full-stack",
 			imgSrc: netflixGif,
@@ -34,7 +46,7 @@ export const Projects = () => {
 			gitRepo: "https://github.com/Jmaltby19/netflix-clone",
 		},
 		{
-			id: 3,
+			id: 4,
 			title: "Dev-Link",
 			dev: "Full-stack",
 			imgSrc: devLinkGif,
@@ -43,28 +55,6 @@ export const Projects = () => {
 			stack:
 				"TypeScript | React | Hooks | Redux | JavaScript | NodeJS | Express | MongoDB | TailwindCSS",
 			gitRepo: "https://github.com/JMaltby19/Dev-Link",
-		},
-
-		{
-			id: 4,
-			title: "Weather App",
-			dev: "Front-end (React)",
-			imgSrc: weatherApp,
-			url: "https://react-weather-app-drab-sigma.vercel.app/",
-			desc: "This Weather app used the Open Weather API. This was one of my first projects to use React. A simple app which displays the users current weather and the weeks forecast",
-			stack: "React | Hooks | JavaScript",
-			gitRepo: "https://github.com/JMaltby19/react-weather-app",
-		},
-
-		{
-			id: 5,
-			title: "Speed Typing Game",
-			dev: "Front-end (React)",
-			imgSrc: speedGame,
-			url: "https://speed-typing-game-orpin.vercel.app/",
-			desc: "The speed typing game will count the amount of words typed within a set time.",
-			stack: "React | Hooks | JavaScript",
-			gitRepo: "https://github.com/JMaltby19/speed-typing",
 		},
 	];
 
