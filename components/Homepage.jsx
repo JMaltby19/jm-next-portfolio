@@ -13,11 +13,11 @@ export const Homepage = () => {
 					<h1>Welcome to my page</h1>
 				</div>
 				<div className="text-slate-400 text-xl max-w-xl mx-auto h-96 mb-20 md:mb-0">
-					I am a junior developer with experience in React, JavaScript, NodeJS,
-					CSS & HTML. Over the past year I have been creating projects which
-					showcase my abilities and knowledge. I am looking forward to start my
-					career in web development and cannot wait to being involved in bigger
-					and better things!
+					As a passionate Junior Developer, I bring hands-on experience in web
+					technologies, including React, JavaScript, NodeJS, CSS, HTML as well
+					as databases such as MySQL. My journey so far has been marked by
+					dedicated project work that not only showcases my technical abilities
+					but also my commitment to growing within this dynamic field.
 				</div>
 			</div>
 		</div>
