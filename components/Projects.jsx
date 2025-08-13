@@ -23,8 +23,21 @@ export const Projects = () => {
 				"React | Hooks | Redux Toolkit | JavaScript | NodeJS | Express | MySQL | TailwindCSS",
 			gitRepo: "https://github.com/JMaltby19/Store-Frontend",
 		},
+
 		{
 			id: 2,
+			title: "Netflix Clone",
+			dev: "Full-stack",
+			imgSrc: netflixGif,
+			url: "https://flix-net-five.vercel.app",
+			desc: "This is my version of Netflix. Users can sign up and create an account using node and express. These accounts are stored in a SQL database. Once logged in, you can browse movies and series, saving your favourites to your watchlist. You can also modify your user credentials.",
+			stack:
+				"React | Hooks | Redux Toolkit | Tanstack Query | JavaScript | NodeJS | Express | MySQL | RESTful | SASS",
+			gitRepo: "https://github.com/JMaltby19/flix-net",
+		},
+
+		{
+			id: 3,
 			title: "Ticket-System",
 			dev: "Full-stack",
 			imgSrc: ticketSystem,
@@ -34,17 +47,7 @@ export const Projects = () => {
 				"React | Hooks | Redux Toolkit | JavaScript | NodeJS | Express | MySQL | TailwindCSS",
 			gitRepo: "https://github.com/JMaltby19/ticket-system",
 		},
-		{
-			id: 3,
-			title: "Netflix Clone",
-			dev: "Full-stack",
-			imgSrc: netflixGif,
-			url: "https://flix-project.co.uk",
-			desc: "This is my version of Netflix. Users can sign up and create an account using node and express. These accounts are stored in a SQL database. Once logged in, you can browse movies and series, saving your favourites to your watchlist. You can also modify your user credentials.",
-			stack:
-				"React | Hooks | JavaScript | NodeJS | Express | MySQL | RESTful | SASS",
-			gitRepo: "https://github.com/Jmaltby19/netflix-clone",
-		},
+
 		{
 			id: 4,
 			title: "Dev-Link",
